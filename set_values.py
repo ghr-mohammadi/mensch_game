@@ -1,24 +1,19 @@
+from PyQt5.QtGui import QIcon
+
 from phase_1.piece import Piece
 
 
 def set_val(parent):
+    parent.setWindowTitle('Mensch Game')
+    parent.setWindowIcon(QIcon('ressource/dice_6.png'))
+    parent.setGeometry(400, 40, 1240, 980)
+    parent.setFixedSize(1240, 980)
+
     parent.pieces = {
-        'yellow': [Piece(parent.main_board, 'yellow', 0),
-                   Piece(parent.main_board, 'yellow', 1),
-                   Piece(parent.main_board, 'yellow', 2),
-                   Piece(parent.main_board, 'yellow', 3)],
-        'red': [Piece(parent.main_board, 'red', 0),
-                Piece(parent.main_board, 'red', 1),
-                Piece(parent.main_board, 'red', 2),
-                Piece(parent.main_board, 'red', 3)],
-        'blue': [Piece(parent.main_board, 'blue', 0),
-                 Piece(parent.main_board, 'blue', 1),
-                 Piece(parent.main_board, 'blue', 2),
-                 Piece(parent.main_board, 'blue', 3)],
-        'green': [Piece(parent.main_board, 'green', 0),
-                  Piece(parent.main_board, 'green', 1),
-                  Piece(parent.main_board, 'green', 2),
-                  Piece(parent.main_board, 'green', 3)]
+        'yellow': [Piece(parent.main_board, 'yellow', i) for i in range(4)],
+        'red': [Piece(parent.main_board, 'red', i) for i in range(4)],
+        'blue': [Piece(parent.main_board, 'blue', i) for i in range(4)],
+        'green': [Piece(parent.main_board, 'green', i) for i in range(4)]
     }
 
     parent.bases = {

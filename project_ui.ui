@@ -20,6 +20,9 @@
    <set>QMainWindow::AllowTabbedDocks|QMainWindow::AnimatedDocks|QMainWindow::VerticalTabs</set>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="statusTip">
+    <string>Welcome To Mensch Game</string>
+   </property>
    <widget class="Line" name="horizental_line">
     <property name="geometry">
      <rect>
@@ -114,6 +117,9 @@ border-radius: 12px;</string>
        <bold>true</bold>
       </font>
      </property>
+     <property name="statusTip">
+      <string>Roll Dice</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">background-color: #dddddd;
 border: 2px solid gray;
@@ -131,6 +137,9 @@ border-radius: 12px;</string>
        <width>98</width>
        <height>98</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Dice</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border: 0 solid rgba(0, 0, 0, 0);</string>
@@ -169,6 +178,9 @@ border-radius: 12px;</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Game Way</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -191,6 +203,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Blue Home</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -215,6 +230,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Game Way</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -237,6 +255,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Blue Home</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -261,6 +282,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Red Home</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -283,6 +307,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Red Home</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -307,6 +334,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Red Home</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -329,6 +359,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Game Way</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -353,6 +386,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Red Home</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -375,6 +411,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Blue Base</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -399,6 +438,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Red Start</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -421,6 +463,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Game Way</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -445,6 +490,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Game Way</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -467,6 +515,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Game Way</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -491,6 +542,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Blue Base</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -513,6 +567,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Game Way</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -537,6 +594,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Game Way</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -559,6 +619,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Game Way</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -583,6 +646,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Red Base</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -605,6 +671,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Blue Home</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -629,6 +698,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Game Way</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -651,6 +723,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Blue Home</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -675,6 +750,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Game Way</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -697,6 +775,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Game Way</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -721,6 +802,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Game Way</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -743,6 +827,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Game Way</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -767,6 +854,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Game Way</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -789,6 +879,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Game Way</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -813,6 +906,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Game Way</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -835,6 +931,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Game Way</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -859,6 +958,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Game Way</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -881,6 +983,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Yellow Home</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -905,6 +1010,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Game Way</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -927,6 +1035,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Game Way</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -951,6 +1062,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Green Home</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -973,6 +1087,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Game Way</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -997,6 +1114,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Game Way</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -1019,6 +1139,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Game Way</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -1043,6 +1166,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Game Way</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -1065,6 +1191,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Yellow Base</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -1089,6 +1218,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Yellow Base</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -1111,6 +1243,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Green Home</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -1135,6 +1270,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Green Home</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -1157,6 +1295,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Game Way</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -1181,6 +1322,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Game Way</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -1203,6 +1347,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Game Way</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -1227,6 +1374,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Yellow Home</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -1249,6 +1399,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Game Way</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -1273,6 +1426,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Green Home</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -1295,6 +1451,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Game Way</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -1319,6 +1478,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Yellow Home</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -1341,6 +1503,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Green Start</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -1365,6 +1530,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Game Way</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -1387,6 +1555,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Green Base</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -1411,6 +1582,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Green Base</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -1433,6 +1607,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Game Way</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -1457,6 +1634,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Yellow Home</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -1479,6 +1659,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Yellow</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -1503,6 +1686,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Yellow Base</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -1525,6 +1711,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Green Base</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -1549,6 +1738,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Green Base</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -1571,6 +1763,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Yellow Base</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -1595,6 +1790,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Game Way</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -1617,6 +1815,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Game Way</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -1641,6 +1842,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Red Base</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -1663,6 +1867,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Red Base</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -1687,6 +1894,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Blue Base</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -1709,6 +1919,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Game Way</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -1733,6 +1946,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Blue Start</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -1755,6 +1971,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Game Way</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -1779,6 +1998,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <height>69</height>
       </rect>
      </property>
+     <property name="statusTip">
+      <string>Blue Base</string>
+     </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
 background-color: rgba(255, 255, 255, 0);</string>
@@ -1801,6 +2023,9 @@ background-color: rgba(255, 255, 255, 0);</string>
        <width>69</width>
        <height>69</height>
       </rect>
+     </property>
+     <property name="statusTip">
+      <string>Red Base</string>
      </property>
      <property name="styleSheet">
       <string notr="true">border-color: rgba(255, 255, 255, 0);
@@ -2028,6 +2253,9 @@ border-radius: 12px;</string>
     </rect>
    </property>
    <widget class="QMenu" name="game_menu">
+    <property name="statusTip">
+     <string>Game</string>
+    </property>
     <property name="title">
      <string>Game</string>
     </property>
@@ -2043,37 +2271,61 @@ border-radius: 12px;</string>
   <action name="add_player">
    <property name="icon">
     <iconset>
-     <normaloff>ressource/add_player_.png</normaloff>ressource/add_player_.png</iconset>
+     <normaloff>ressource/add-user.png</normaloff>ressource/add-user.png</iconset>
    </property>
    <property name="text">
     <string>Add Player</string>
+   </property>
+   <property name="statusTip">
+    <string>Game ⇒ Add Player</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+P</string>
    </property>
   </action>
   <action name="start_game">
    <property name="icon">
     <iconset>
-     <normaloff>ressource/start_game.png</normaloff>ressource/start_game.png</iconset>
+     <normaloff>ressource/racing-flag.png</normaloff>ressource/racing-flag.png</iconset>
    </property>
    <property name="text">
     <string>Start Game</string>
+   </property>
+   <property name="statusTip">
+    <string>Game ⇒ Start Game</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+G</string>
    </property>
   </action>
   <action name="new_game">
    <property name="icon">
     <iconset>
-     <normaloff>ressource/new_game.png</normaloff>ressource/new_game.png</iconset>
+     <normaloff>ressource/refresh.png</normaloff>ressource/refresh.png</iconset>
    </property>
    <property name="text">
     <string>New Game</string>
+   </property>
+   <property name="statusTip">
+    <string>Game ⇒ New Game</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
    </property>
   </action>
   <action name="exit_game">
    <property name="icon">
     <iconset>
-     <normaloff>ressource/exit.png</normaloff>ressource/exit.png</iconset>
+     <normaloff>ressource/turn-off.png</normaloff>ressource/turn-off.png</iconset>
    </property>
    <property name="text">
     <string>Exit</string>
+   </property>
+   <property name="statusTip">
+    <string>Game ⇒ Exit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
    </property>
   </action>
  </widget>
