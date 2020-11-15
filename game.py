@@ -53,7 +53,7 @@ class Game:
                 border: 0 solid rgba(0,0,0,0);""")
 
     def onClick_roll_dice(self):
-        self.num = randint(1, 6) if self.num == 6 else 6
+        self.num = randint(1, 6)
         self.parent.roll_dice.setDisabled(True)
 
         length = 1.3

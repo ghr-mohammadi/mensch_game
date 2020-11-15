@@ -160,7 +160,7 @@ background-color: rgba(255, 255, 255, 0);</string>
     </property>
     <property name="icon">
      <iconset>
-      <normalon>ressource/game_piece_red.png</normalon>
+      <normalon>../ressource/game_piece_red.png</normalon>
      </iconset>
     </property>
    </item>
@@ -170,7 +170,7 @@ background-color: rgba(255, 255, 255, 0);</string>
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>ressource/game_piece_blue.png</normaloff>ressource/game_piece_blue.png</iconset>
+      <normaloff>../ressource/game_piece_blue.png</normaloff>../ressource/game_piece_blue.png</iconset>
     </property>
    </item>
    <item>
@@ -179,7 +179,7 @@ background-color: rgba(255, 255, 255, 0);</string>
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>ressource/game_piece_green.png</normaloff>ressource/game_piece_green.png</iconset>
+      <normaloff>../ressource/game_piece_green.png</normaloff>../ressource/game_piece_green.png</iconset>
     </property>
    </item>
    <item>
@@ -188,7 +188,7 @@ background-color: rgba(255, 255, 255, 0);</string>
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>ressource/game_piece_yellow.png</normaloff>ressource/game_piece_yellow.png</iconset>
+      <normaloff>../ressource/game_piece_yellow.png</normaloff>../ressource/game_piece_yellow.png</iconset>
     </property>
    </item>
   </widget>

@@ -9,7 +9,7 @@ from phase_1.player import Player
 class LoginDialog(QDialog):
     def __init__(self, parent):
         super().__init__(parent)
-        loadUi('login_ui.ui', self)
+        loadUi('ui/login_ui.ui', self)
         self.setFixedSize(600, 320)
 
         self.login_btn.clicked.connect(self.is_valid)
@@ -39,9 +39,9 @@ class LoginDialog(QDialog):
                         if len(self.parent().players) > 1 and not self.parent().start_game.isEnabled():
                             self.parent().start_game.setEnabled(True)
                         if len(self.parent().players) > 3:
-                            if self.parent().add_player in self.parent().disable_list:
-                                self.parent().disable_list.remove(self.parent().add_player)
                             self.parent().add_player.setDisabled(True)
+                            if self.parent().add_player in self.parent().btn_list:
+                                self.parent().btn_list.remove(self.parent().add_player)
                     else:
                         QMessageBox.critical(self,
                                              'Wrong Input',

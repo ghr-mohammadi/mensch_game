@@ -23,6 +23,9 @@ def new_game_func(parent, msgbox=True):
         for btn in parent.btn_list:
             btn.setDisabled(True)
 
+        if parent.add_player in parent.btn_list:
+            parent.btn_list.append(parent.add_player)
+
         parent.add_player.setEnabled(True)
         parent.exit_game.setEnabled(True)
 

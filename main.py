@@ -14,7 +14,7 @@ from phase_1.set_values import set_val
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        loadUi('project_ui.ui', self)
+        loadUi('ui/project_ui.ui', self)
 
         self.game = None
 

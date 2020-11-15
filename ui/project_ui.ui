@@ -148,7 +148,7 @@ border-radius: 12px;</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/dice_6.png</pixmap>
+      <pixmap>../ressource/dice_6.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -189,7 +189,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -215,7 +215,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_blue.png</pixmap>
+      <pixmap>../ressource/ring_blue.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -241,7 +241,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -267,7 +267,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_blue.png</pixmap>
+      <pixmap>../ressource/ring_blue.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -293,7 +293,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_red.png</pixmap>
+      <pixmap>../ressource/ring_red.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -319,7 +319,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_red.png</pixmap>
+      <pixmap>../ressource/ring_red.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -345,7 +345,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_red.png</pixmap>
+      <pixmap>../ressource/ring_red.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -371,7 +371,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -397,7 +397,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_red.png</pixmap>
+      <pixmap>../ressource/ring_red.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -423,7 +423,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_blue.png</pixmap>
+      <pixmap>../ressource/ring_blue.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -449,7 +449,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_red.png</pixmap>
+      <pixmap>../ressource/ring_red.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -475,7 +475,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -501,7 +501,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -527,7 +527,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -553,7 +553,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_blue.png</pixmap>
+      <pixmap>../ressource/ring_blue.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -579,7 +579,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -605,7 +605,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -631,7 +631,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -657,7 +657,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_red.png</pixmap>
+      <pixmap>../ressource/ring_red.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -683,7 +683,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_blue.png</pixmap>
+      <pixmap>../ressource/ring_blue.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -709,7 +709,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -735,7 +735,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_blue.png</pixmap>
+      <pixmap>../ressource/ring_blue.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -761,7 +761,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -787,7 +787,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -813,7 +813,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -839,7 +839,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -865,7 +865,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -891,7 +891,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -917,7 +917,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -943,7 +943,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -969,7 +969,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -995,7 +995,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_yellow.png</pixmap>
+      <pixmap>../ressource/ring_yellow.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1021,7 +1021,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1047,7 +1047,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1073,7 +1073,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_green.png</pixmap>
+      <pixmap>../ressource/ring_green.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1099,7 +1099,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1125,7 +1125,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1151,7 +1151,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1177,7 +1177,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1203,7 +1203,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_yellow.png</pixmap>
+      <pixmap>../ressource/ring_yellow.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1229,7 +1229,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_yellow.png</pixmap>
+      <pixmap>../ressource/ring_yellow.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1255,7 +1255,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_green.png</pixmap>
+      <pixmap>../ressource/ring_green.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1281,7 +1281,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_green.png</pixmap>
+      <pixmap>../ressource/ring_green.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1307,7 +1307,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1333,7 +1333,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1359,7 +1359,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1385,7 +1385,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_yellow.png</pixmap>
+      <pixmap>../ressource/ring_yellow.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1411,7 +1411,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1437,7 +1437,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_green.png</pixmap>
+      <pixmap>../ressource/ring_green.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1463,7 +1463,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1489,7 +1489,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_yellow.png</pixmap>
+      <pixmap>../ressource/ring_yellow.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1515,7 +1515,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_green.png</pixmap>
+      <pixmap>../ressource/ring_green.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1541,7 +1541,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1567,7 +1567,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_green.png</pixmap>
+      <pixmap>../ressource/ring_green.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1593,7 +1593,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_green.png</pixmap>
+      <pixmap>../ressource/ring_green.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1619,7 +1619,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1645,7 +1645,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_yellow.png</pixmap>
+      <pixmap>../ressource/ring_yellow.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1671,7 +1671,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_yellow.png</pixmap>
+      <pixmap>../ressource/ring_yellow.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1697,7 +1697,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_yellow.png</pixmap>
+      <pixmap>../ressource/ring_yellow.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1723,7 +1723,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_green.png</pixmap>
+      <pixmap>../ressource/ring_green.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1749,7 +1749,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_green.png</pixmap>
+      <pixmap>../ressource/ring_green.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1775,7 +1775,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_yellow.png</pixmap>
+      <pixmap>../ressource/ring_yellow.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1801,7 +1801,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1827,7 +1827,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1853,7 +1853,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_red.png</pixmap>
+      <pixmap>../ressource/ring_red.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1879,7 +1879,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_red.png</pixmap>
+      <pixmap>../ressource/ring_red.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1905,7 +1905,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_blue.png</pixmap>
+      <pixmap>../ressource/ring_blue.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1931,7 +1931,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1957,7 +1957,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_blue.png</pixmap>
+      <pixmap>../ressource/ring_blue.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1983,7 +1983,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_white.png</pixmap>
+      <pixmap>../ressource/ring_white.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -2009,7 +2009,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_blue.png</pixmap>
+      <pixmap>../ressource/ring_blue.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -2035,7 +2035,7 @@ background-color: rgba(255, 255, 255, 0);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>ressource/ring_red.png</pixmap>
+      <pixmap>../ressource/ring_red.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -2271,7 +2271,7 @@ border-radius: 12px;</string>
   <action name="add_player">
    <property name="icon">
     <iconset>
-     <normaloff>ressource/add-user.png</normaloff>ressource/add-user.png</iconset>
+     <normaloff>../ressource/add-user.png</normaloff>../ressource/add-user.png</iconset>
    </property>
    <property name="text">
     <string>Add Player</string>
@@ -2286,7 +2286,7 @@ border-radius: 12px;</string>
   <action name="start_game">
    <property name="icon">
     <iconset>
-     <normaloff>ressource/racing-flag.png</normaloff>ressource/racing-flag.png</iconset>
+     <normaloff>../ressource/racing-flag.png</normaloff>../ressource/racing-flag.png</iconset>
    </property>
    <property name="text">
     <string>Start Game</string>
@@ -2301,7 +2301,7 @@ border-radius: 12px;</string>
   <action name="new_game">
    <property name="icon">
     <iconset>
-     <normaloff>ressource/refresh.png</normaloff>ressource/refresh.png</iconset>
+     <normaloff>../ressource/refresh.png</normaloff>../ressource/refresh.png</iconset>
    </property>
    <property name="text">
     <string>New Game</string>
@@ -2316,7 +2316,7 @@ border-radius: 12px;</string>
   <action name="exit_game">
    <property name="icon">
     <iconset>
-     <normaloff>ressource/turn-off.png</normaloff>ressource/turn-off.png</iconset>
+     <normaloff>../ressource/turn-off.png</normaloff>../ressource/turn-off.png</iconset>
    </property>
    <property name="text">
     <string>Exit</string>
