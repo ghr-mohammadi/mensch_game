@@ -25,17 +25,13 @@ class MainWindow(QMainWindow):
         if not self.game:
             self.game = Game(self)
         else:
-            self.add_player.setDisabled(True)
-            self.start_game.setDisabled(True)
-            self.new_game.setEnabled(True)
-            self.roll_dice.setEnabled(True)
             self.game.first_step()
 
 
 if __name__ == '__main__':
     app = QApplication(argv)
 
-    splash = MovieSplashScreen(QMovie('ressource/dice_gif.gif'))
+    splash = MovieSplashScreen(QMovie('ressource/dice_gif_new.gif'))
     splash.show()
 
     window = MainWindow()

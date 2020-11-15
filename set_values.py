@@ -9,13 +9,6 @@ def set_val(parent):
     parent.setGeometry(400, 40, 1240, 980)
     parent.setFixedSize(1240, 980)
 
-    parent.pieces = {
-        'yellow': [Piece(parent.main_board, 'yellow', i) for i in range(4)],
-        'red': [Piece(parent.main_board, 'red', i) for i in range(4)],
-        'blue': [Piece(parent.main_board, 'blue', i) for i in range(4)],
-        'green': [Piece(parent.main_board, 'green', i) for i in range(4)]
-    }
-
     parent.bases = {
         'yellow': [parent.base_yellow_0, parent.base_yellow_1, parent.base_yellow_2, parent.base_yellow_3],
         'red': [parent.base_red_0, parent.base_red_1, parent.base_red_2, parent.base_red_3],
@@ -79,4 +72,11 @@ def set_val(parent):
                   parent.red_7, parent.red_8, parent.red_9, parent.start_blue, parent.blue_1, parent.blue_2,
                   parent.blue_3, parent.blue_4, parent.blue_5, parent.blue_6, parent.blue_7, parent.blue_8,
                   parent.blue_9, parent.home_green_0, parent.home_green_1, parent.home_green_2, parent.home_green_3]
+    }
+
+    parent.pieces = {
+        'yellow': [Piece(parent.main_board, 'yellow', parent.bases['yellow'], parent.positions['yellow']) for _ in range(4)],
+        'red': [Piece(parent.main_board, 'red', parent.bases['red'], parent.positions['red']) for _ in range(4)],
+        'blue': [Piece(parent.main_board, 'blue', parent.bases['blue'], parent.positions['blue']) for _ in range(4)],
+        'green': [Piece(parent.main_board, 'green', parent.bases['green'], parent.positions['green']) for _ in range(4)]
     }

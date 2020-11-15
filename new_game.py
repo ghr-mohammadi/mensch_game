@@ -11,7 +11,7 @@ def new_game_func(parent, msgbox=True):
                                      QMessageBox.Ok | QMessageBox.Cancel,
                                      QMessageBox.Cancel)
 
-    if result == QMessageBox.Ok or not msgbox :
+    if result == QMessageBox.Ok or not msgbox:
         for key in parent.pieces.keys():
             for pic in parent.pieces[key]:
                 pic.setDisabled(True)
@@ -31,6 +31,3 @@ def new_game_func(parent, msgbox=True):
 
         parent.login.combo_box_reset()
         parent.turn_name.setText('')
-
-        # if not parent.game:
-        #     parent.game.first_step()

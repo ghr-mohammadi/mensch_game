@@ -1,5 +1,5 @@
-from PyQt5.QtGui import QPixmap, QPainter, QMovie
-from PyQt5.QtWidgets import QSplashScreen, QApplication
+from PyQt5.QtGui import QPixmap, QPainter
+from PyQt5.QtWidgets import QSplashScreen
 
 
 class MovieSplashScreen(QSplashScreen):

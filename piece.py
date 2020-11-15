@@ -1,10 +1,11 @@
+from PyQt5.QtCore import QPropertyAnimation, QSequentialAnimationGroup
 from PyQt5.QtCore import QSize
 from PyQt5.QtGui import QIcon, QPixmap
 from PyQt5.QtWidgets import QPushButton
 
 
 class Piece(QPushButton):
-    def __init__(self, parent, color, n):
+    def __init__(self, parent, color, bases, positions):
         super().__init__(parent)
         self.setDisabled(True)
         self.setVisible(False)
@@ -20,16 +21,7 @@ class Piece(QPushButton):
 
         self.color = color
         self.setStatusTip(self.color.capitalize() + ' Piece')
-        self.name = color + '_' + str(n)
-        self.__bases, self.__positions = None, None
-
-    def __repr__(self):
-        return self.name
-
-    def set_bases(self, bases):
         self.__bases = bases
-
-    def set_positions(self, positions):
         self.__positions = positions
 
     def is_in_base(self):
@@ -40,3 +32,23 @@ class Piece(QPushButton):
 
     def is_in_home(self):
         return self.geometry() in [position.geometry() for position in self.__positions[-4:]]
+
+    def smooth_move(self, number):
+        if self.is_in_base():
+            deley = 500
+            self.parent().anim = QPropertyAnimation(self, b"geometry")
+            self.parent().anim.setDuration(deley)
+            self.parent().anim.setEndValue(self.__positions[0].geometry())
+            self.parent().anim.start()
+        else:
+            deley = 250 * number
+            pic_index = [pos.geometry() for pos in self.__positions].index(self.geometry())
+            self.parent().anim_grp = QSequentialAnimationGroup()
+            for i in range(number):
+                self.parent().anim = QPropertyAnimation(self, b"geometry")
+                self.parent().anim.setDuration(250)
+                self.parent().anim.setStartValue(self.__positions[pic_index + i].geometry())
+                self.parent().anim.setEndValue(self.__positions[pic_index + i + 1].geometry())
+                self.parent().anim_grp.addAnimation(self.parent().anim)
+            self.parent().anim_grp.start()
+        return deley + 100

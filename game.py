@@ -2,22 +2,17 @@ import logging
 from functools import reduce
 from random import randint
 
-from PyQt5.QtCore import QPropertyAnimation, QSequentialAnimationGroup, QTimer
+from PyQt5.QtCore import QPropertyAnimation, QTimer
 from PyQt5.QtGui import QPixmap
-from PyQt5.QtWidgets import QApplication
 
-from phase_1.gif_display import gif_display
 from phase_1.finish_dialog import FinishDialog
+from phase_1.gif_display import gif_display
 
 
 class Game:
 
     def __init__(self, parent):
         self.parent = parent
-        self.parent.add_player.setDisabled(True)
-        self.parent.start_game.setDisabled(True)
-        self.parent.new_game.setEnabled(True)
-        self.parent.roll_dice.setEnabled(True)
 
         self.game_logger = logging.getLogger('mensch')
         self.file_handler = logging.FileHandler('mensch.log')
@@ -27,25 +22,20 @@ class Game:
 
         self.first_step()
 
-        # self.num, self.play_dict, self.win_list = 0, self.parent.players, []
-        # self.color_list = [*self.parent.players.keys()]
-        # self.turn = self.color_list[0]
-        # self.parent.turn_name.setText(f'Turn: {self.play_dict[self.turn].username}')
-        # self.parent.turn_name.setStyleSheet(
-        #     f"""color: {self.parent.color_code[self.turn]};
-        #         border: 0 solid rgba(0,0,0,0);""")
-
         self.parent.roll_dice.clicked.connect(lambda: self.onClick_roll_dice())
 
         for pic_list in self.parent.pieces.values():
             for pic in pic_list:
                 pic.clicked.connect(lambda tmp, p=pic: self.move_piece(p))
-                pic.setDisabled(True)
 
     def __del__(self):
         self.file_handler.close()
 
     def first_step(self):
+        self.parent.add_player.setDisabled(True)
+        self.parent.start_game.setDisabled(True)
+        self.parent.new_game.setEnabled(True)
+        self.parent.roll_dice.setEnabled(True)
         self.num, self.play_dict, self.win_list = 0, self.parent.players, []
         self.color_list = [*self.parent.players.keys()]
         self.turn = self.color_list[0]
@@ -91,28 +81,12 @@ class Game:
                         self.next_turn()
 
     def move_piece(self, pic):
-        if pic.is_in_base():
-            tl = 500
-            self.anim = QPropertyAnimation(pic, b"geometry")
-            self.anim.setDuration(tl)
-            self.anim.setEndValue(self.play_dict[self.turn].positions[0].geometry())
-            self.anim.start()
-        else:
-            tl = 250 * self.num
-            pic_index = [pos.geometry() for pos in self.play_dict[self.turn].positions].index(pic.geometry())
-            self.anim_grp = QSequentialAnimationGroup()
-            for i in range(self.num):
-                self.anim = QPropertyAnimation(pic, b"geometry")
-                self.anim.setDuration(250)
-                self.anim.setStartValue(self.play_dict[self.turn].positions[pic_index + i].geometry())
-                self.anim.setEndValue(self.play_dict[self.turn].positions[pic_index + i + 1].geometry())
-                self.anim_grp.addAnimation(self.anim)
-            self.anim_grp.start()
+        deley = pic.smooth_move(self.num)
 
         for pic_ in self.play_dict[self.turn].pieces:
             pic_.setDisabled(True)
 
-        QTimer.singleShot(tl + 100, lambda: after_move())
+        QTimer.singleShot(deley, lambda: after_move())
 
         def after_move():
             nonlocal self, pic
@@ -122,28 +96,17 @@ class Game:
                 win_color = self.turn
                 self.next_turn()
                 self.num = 0
-                # print(self.color_list)
                 self.color_list.remove(win_color)
-                # print(self.color_list)
-                # print(self.play_dict)
                 self.win_list.append((self.play_dict[win_color].username, win_color))
                 del self.play_dict[win_color]
-                # print(self.play_dict)
-                # print(self.parent.bases)
-                # print(self.parent.positions)
 
             if not self.play_dict:
-                # print(' '.join(self.win_list))
                 names = ' '.join(w[0] for w in self.win_list)
                 colors = ' '.join(w[1] for w in self.win_list)
-                self.win_list.clear()
                 self.game_logger.info(names)
                 self.parent.finish = FinishDialog(self.parent, names, colors)
                 self.parent.finish.exec_()
-                self.num = 0
                 return
-                # print('The End...')
-                # QApplication.exit()
 
             if 0 < self.num < 6:
                 self.next_turn()
