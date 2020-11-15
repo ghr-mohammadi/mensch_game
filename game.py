@@ -5,8 +5,8 @@ from random import randint
 from PyQt5.QtCore import QPropertyAnimation, QTimer
 from PyQt5.QtGui import QPixmap
 
-from phase_1.finish_dialog import FinishDialog
-from phase_1.gif_display import gif_display
+from finish_dialog import FinishDialog
+from gif_display import gif_display
 
 
 class Game:

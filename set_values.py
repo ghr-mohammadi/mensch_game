@@ -1,6 +1,6 @@
 from PyQt5.QtGui import QIcon
 
-from phase_1.piece import Piece
+from piece import Piece
 
 
 def set_val(parent):

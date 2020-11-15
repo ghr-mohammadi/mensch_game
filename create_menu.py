@@ -1,8 +1,8 @@
 from PyQt5.QtWidgets import QApplication
 
-from phase_1.game import Game
-from phase_1.login_dialog import LoginDialog
-from phase_1.new_game import new_game_func
+from game import Game
+from login_dialog import LoginDialog
+from new_game import new_game_func
 
 
 def init_menu(parent):

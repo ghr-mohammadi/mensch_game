@@ -2,8 +2,8 @@ from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import QDialog, QMessageBox
 from PyQt5.uic import loadUi
 
-from phase_1.create_animation import login_animate
-from phase_1.player import Player
+from create_animation import login_animate
+from player import Player
 
 
 class LoginDialog(QDialog):

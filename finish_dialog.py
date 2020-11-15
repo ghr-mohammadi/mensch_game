@@ -3,7 +3,7 @@ from PyQt5.QtGui import QPixmap
 from PyQt5.QtWidgets import QDialog, QApplication, QLabel
 from PyQt5.uic import loadUi
 
-from phase_1.new_game import new_game_func
+from new_game import new_game_func
 
 
 class FinishDialog(QDialog):

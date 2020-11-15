@@ -5,10 +5,10 @@ from PyQt5.QtGui import QMovie
 from PyQt5.QtWidgets import QMainWindow, QApplication
 from PyQt5.uic import loadUi
 
-from phase_1.create_menu import init_menu
-from phase_1.game import Game
-from phase_1.move_splash import MovieSplashScreen
-from phase_1.set_values import set_val
+from create_menu import init_menu
+from game import Game
+from move_splash import MovieSplashScreen
+from set_values import set_val
 
 
 class MainWindow(QMainWindow):
