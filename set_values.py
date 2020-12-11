@@ -38,40 +38,20 @@ def set_val(parent):
 
     parent.names = [parent.name_1, parent.name_2, parent.name_3, parent.name_4]
 
-    parent.positions = {
-        'yellow': [parent.start_yellow, parent.yellow_1, parent.yellow_2, parent.yellow_3, parent.yellow_4,
+    # Single point of error
+    positions = [parent.start_yellow, parent.yellow_1, parent.yellow_2, parent.yellow_3, parent.yellow_4,
                    parent.yellow_5, parent.yellow_6, parent.yellow_7, parent.yellow_8, parent.yellow_9,
                    parent.start_red, parent.red_1, parent.red_2, parent.red_3, parent.red_4, parent.red_5, parent.red_6,
                    parent.red_7, parent.red_8, parent.red_9, parent.start_blue, parent.blue_1, parent.blue_2,
                    parent.blue_3, parent.blue_4, parent.blue_5, parent.blue_6, parent.blue_7, parent.blue_8,
                    parent.blue_9, parent.start_green, parent.green_1, parent.green_2, parent.green_3, parent.green_4,
-                   parent.green_5, parent.green_6, parent.green_7, parent.green_8, parent.green_9, parent.home_yellow_0,
-                   parent.home_yellow_1, parent.home_yellow_2, parent.home_yellow_3],
-        'red': [parent.start_red, parent.red_1, parent.red_2, parent.red_3, parent.red_4, parent.red_5, parent.red_6,
-                parent.red_7, parent.red_8, parent.red_9, parent.start_blue, parent.blue_1, parent.blue_2,
-                parent.blue_3, parent.blue_4, parent.blue_5, parent.blue_6, parent.blue_7, parent.blue_8,
-                parent.blue_9, parent.start_green, parent.green_1, parent.green_2, parent.green_3, parent.green_4,
-                parent.green_5, parent.green_6, parent.green_7, parent.green_8, parent.green_9, parent.start_yellow,
-                parent.yellow_1, parent.yellow_2, parent.yellow_3, parent.yellow_4, parent.yellow_5, parent.yellow_6,
-                parent.yellow_7, parent.yellow_8, parent.yellow_9, parent.home_red_0, parent.home_red_1,
-                parent.home_red_2, parent.home_red_3],
-        'blue': [parent.start_blue, parent.blue_1, parent.blue_2, parent.blue_3, parent.blue_4, parent.blue_5,
-                 parent.blue_6, parent.blue_7, parent.blue_8, parent.blue_9, parent.start_green, parent.green_1,
-                 parent.green_2, parent.green_3, parent.green_4, parent.green_5, parent.green_6, parent.green_7,
-                 parent.green_8, parent.green_9, parent.start_yellow, parent.yellow_1, parent.yellow_2, parent.yellow_3,
-                 parent.yellow_4, parent.yellow_5, parent.yellow_6, parent.yellow_7, parent.yellow_8, parent.yellow_9,
-                 parent.start_red, parent.red_1, parent.red_2, parent.red_3, parent.red_4, parent.red_5, parent.red_6,
-                 parent.red_7, parent.red_8, parent.red_9, parent.home_blue_0, parent.home_blue_1, parent.home_blue_2,
-                 parent.home_blue_3],
-        'green': [parent.start_green, parent.green_1,
-                  parent.green_2, parent.green_3, parent.green_4, parent.green_5, parent.green_6, parent.green_7,
-                  parent.green_8, parent.green_9, parent.start_yellow, parent.yellow_1, parent.yellow_2,
-                  parent.yellow_3,
-                  parent.yellow_4, parent.yellow_5, parent.yellow_6, parent.yellow_7, parent.yellow_8, parent.yellow_9,
-                  parent.start_red, parent.red_1, parent.red_2, parent.red_3, parent.red_4, parent.red_5, parent.red_6,
-                  parent.red_7, parent.red_8, parent.red_9, parent.start_blue, parent.blue_1, parent.blue_2,
-                  parent.blue_3, parent.blue_4, parent.blue_5, parent.blue_6, parent.blue_7, parent.blue_8,
-                  parent.blue_9, parent.home_green_0, parent.home_green_1, parent.home_green_2, parent.home_green_3]
+                   parent.green_5, parent.green_6, parent.green_7, parent.green_8, parent.green_9]
+
+    parent.positions = {
+        'yellow': positions + [parent.home_yellow_0, parent.home_yellow_1, parent.home_yellow_2, parent.home_yellow_3],
+        'red': positions[10:] + positions[:10] + [parent.home_red_0, parent.home_red_1, parent.home_red_2, parent.home_red_3],
+        'blue': positions[20:] + positions[:20] + [parent.home_blue_0, parent.home_blue_1, parent.home_blue_2, parent.home_blue_3],
+        'green': positions[30:] + positions[:30] + [parent.home_green_0, parent.home_green_1, parent.home_green_2, parent.home_green_3]
     }
 
     parent.pieces = {

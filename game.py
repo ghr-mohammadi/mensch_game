@@ -53,6 +53,9 @@ class Game:
                 border: 0 solid rgba(0,0,0,0);""")
 
     def onClick_roll_dice(self):
+        """
+
+        """
         self.num = randint(1, 6)
         self.parent.roll_dice.setDisabled(True)
 
@@ -65,8 +68,8 @@ class Game:
             self.parent.dice_label.setPixmap(QPixmap(self.parent.roll_nums[self.num]))
 
             move_dict = self.play_dict[self.turn].has_move(self.num)
-            if reduce((lambda x, y: x or y), move_dict.values()) or self.num == 6:
-                if not reduce((lambda x, y: x or y), move_dict.values()) and self.num == 6:
+            if self.at_least_one_move(move_dict) or self.num == 6:
+                if not self.at_least_one_move(move_dict) and self.num == 6:
                     self.parent.roll_dice.setEnabled(True)
                 for pic, value in move_dict.items():
                     pic.setEnabled(value)
@@ -80,16 +83,18 @@ class Game:
                     else:
                         self.next_turn()
 
+    def at_least_one_move(self, move_dict):
+        return reduce((lambda x, y: x or y), move_dict.values())
+
     def move_piece(self, pic):
         deley = pic.smooth_move(self.num)
 
         for pic_ in self.play_dict[self.turn].pieces:
             pic_.setDisabled(True)
 
-        QTimer.singleShot(deley, lambda: after_move())
+        QTimer.singleShot(deley, lambda: after_move(self, pic))
 
-        def after_move():
-            nonlocal self, pic
+        def after_move(self, pic):
             self.play_dict[self.turn].roll_num = 0
 
             if reduce((lambda x, y: x and y), [m.is_in_home() for m in self.play_dict[self.turn].pieces]):
